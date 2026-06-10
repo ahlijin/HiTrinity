@@ -1,0 +1,21 @@
+# HiTrinity system parameters
+# Copy and customize per deployment
+
+system:
+  domain_id: 42
+  mode: 'full'  # 'full' or 'degraded'
+
+jetson:
+  yolo_fps_full: 30
+  yolo_fps_degraded: 10
+  whisper_model: 'small'
+  llm_enabled: true
+  llm_timeout: 10.0
+
+pi5:
+  heartbeat_interval: 1.0
+  ollama_url: 'http://localhost:11434'
+  default_model: 'qwen2.5:7b-instruct-q4_K_M'
+  fallback_model: 'qwen2.5:1.5b-instruct-q4_K_M'
+  tts_engine: 'piper'
+  tts_voice: 'zh_CN-huayan-medium'

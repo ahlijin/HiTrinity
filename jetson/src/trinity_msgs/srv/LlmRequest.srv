@@ -1,0 +1,7 @@
+string prompt
+string model
+float32 timeout
+---
+string response
+float32 latency
+bool success

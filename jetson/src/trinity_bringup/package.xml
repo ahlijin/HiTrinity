@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>trinity_bringup</name>
+  <version>0.9.0</version>
+  <description>HiTrinity top-level bringup launch files</description>
+  <maintainer email="ahlijin@163.com">legend</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>fusion_node</exec_depend>
+  <exec_depend>gpu_scheduler</exec_depend>
+  <exec_depend>trinity_msgs</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

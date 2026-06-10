@@ -1,0 +1,10 @@
+fusion_node:
+  ros__parameters:
+    llm_enabled: true
+    llm_timeout: 10.0
+    describe_objects: true
+
+mode_manager:
+  ros__parameters:
+    heartbeat_timeout: 5.0
+    recovery_count: 3

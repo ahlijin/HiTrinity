@@ -1,0 +1,6 @@
+gpu_scheduler:
+  ros__parameters:
+    yolo_fps_full: 30
+    yolo_fps_degraded: 10
+    yolo_fps_whisper_active: 10
+    yolo_fps_idle: 5
